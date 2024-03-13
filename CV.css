@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    
+}
+
+body{
+    background-color: #383b40;
+}
+
+.bgimg img{/*for image*/
+
+    position: fixed;
+    width: 40%;
+    height: auto;
+    background-color: #68e0cf;
+  
+    
+}
+.bgimgtint{
+
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    background-color: #68e0cf;
+    opacity: .3;
+   
+
+}
+
+.circle{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:#383b40 ;
+    transform: translateX(-50%);
+    left: 40%;
+    top: 150px;
+  
+
+}
+
+.name_circle{
+
+    position: absolute;
+    margin: 0px;
+    transform: translate(45%,45%);
+    text-align: left;
+    font-size: 250%;
+    color: rgb(255, 255, 255);
+    text-shadow: #262424;
+ 
+}
+
+.navBar{
+
+   position: fixed;
+   margin-top: 30px;
+   background-color: rgb(65, 65, 65);
+   height: 40px;
+   width: 85%;
+   border-radius: 40px;
+   left: 50%;
+   transform: translateX(-50%);
+   z-index: 100;
+
+}
+
+ul.links{
+
+    position: absolute;
+    line-height: 1.5em;
+    float: right;
+    right: 14px;
+}
+
+ul.links li{
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 7px;
+  
+}
+ul.links li a{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+main{
+    min-height: calc(100vw-2057.21);
+}
+.contentBox {
+  
+    float: right;
+   margin-right: 10%;
+   width: 45%;
+   margin-top: 350px;
+   height: auto;
+   
+}
+.aboutMe{
+    padding-bottom: 50px;
+    border-bottom: 2px solid white;
+}
+
+.contentBox h3{
+
+    color: #68e0cf;
+}
+.contentBox p{
+
+    color: white;
+    font-size:smaller ;
+    line-height: 1.9em;
+}
+.contentBox h1{
+    color: rgb(104, 224, 207);
+
+}
+
+.contentBox h4{
+    color: rgb(104, 224, 207);
+
+}
+.contentBox a{
+    color: inherit;
+    text-decoration: none;
+}
+.contentBox h5{
+    color: white ;
+}
+.skills{
+    margin-top: 20px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid white;
+   
+}
+
+.SkillBar {
+
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    margin-right: 20px;
+    border-bottom:2px  solid grey;
+    bottom: 20px;
+
+}
+
+.line{ 
+    width: 80%;
+    height: 2px;
+    border: 1px;
+    margin-right: auto;
+    padding: 2px;
+    margin-top: 22px;
+    background-color: rgb(104, 224, 207);
+    box-shadow: 2px 2px 10px rgba(104, 224, 208, 0.517);
+    z-index: 1000;
+    border-radius: 5px;
+
+} 
+.line_2{
+    width: 60%;
+    height: 2px;
+    border: 1px;
+    margin-right: auto;
+    padding: 2px;
+    margin-top: 22px;
+    background-color: #68e0cf;
+    box-shadow: 2px 2px 10px rgba(104, 224, 208, 0.517);
+    border-radius: 5px;
+    z-index: 1000;
+
+
+}
+.Achievements{
+    margin-top: 20px;
+    border-bottom: 2px solid white;
+
+}
+.education{
+    margin-top: 20px;
+    border-bottom: 2px solid white;
+   
+
+}
+
+div.link_sep{
+    position: fixed;
+    float: right;
+    width: 100%;
+    z-index: -100;
+
+}
+
+div.link_sep_2{
+  
+    float: right;
+    width: 40px;
+    height: 2000px;
+    background-color: #383b40;
+    border-left: 1px solid white;
+    /* padding-top: 400px; */
+    
+    
+  
+ 
+}
+div.link_sep_2 ul{
+    position: absolute;
+    right: 3px;
+}
+
+div.link_sep_2 img{
+    width: 30px;
+    height: 30px;
+    filter: invert(100);
+
+}
+div.link_sep_2 img:hover{
+    filter: invert(82%) sepia(32%) saturate(596%) hue-rotate(115deg) brightness(93%) contrast(90%);
+
+    
+}
+.navBar a:hover{
+    filter: invert(18%) sepia(32%) saturate(596%) hue-rotate(115deg) brightness(93%) contrast(90%);
+
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to top, #383b40,#383b4000);
+    color: #68e0cf;
+    /* text-align: center; */
+    z-index: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+}
+
+ p.copyright{
+    
+    font-size: 10px;
+    color: white;
+
+}
+.Projects{
+    margin-top: 20px;
+    border-bottom: 2px solid white;
+
+}
+.modules{
+    margin-top: 20px;
+    border-bottom: 2px solid white;
+
+}
